@@ -19,10 +19,7 @@ This example is useful for beginners learning about arrays and loops in C.
 
 c
 
-
-
 #include <stdio.h>
-
 
 int main() {
     
