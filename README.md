@@ -1,18 +1,23 @@
-# Array Traversal in C
+  C Program: Print Array Elements
 
-This project demonstrates how to traverse (iterate through) an array in the C programming language using a `for` loop.
+This is a simple C program that demonstrates how to declare, initialize, and print elements of an integer array using a for loop.
 
-## 📌 Description
+ Description
 
 The program:
-- Declares an integer array of size 5
-- Stores predefined values in the array
-- Uses a `for` loop to access and print each element
-- Displays the elements on the console
 
-## 💻 Source Code
+* Declares an integer array of size 5
+* Initializes the array with values {10, 20, 30, 40, 50}
+* Uses a for loop to iterate through the array
+* Prints each element to the console
 
-```c
+This example is useful for beginners learning about arrays and loops in C.
+
+---
+
+ Source Code
+
+c
 #include <stdio.h>
 
 int main() {
@@ -27,3 +32,47 @@ int main() {
 
     return 0;
 }
+
+
+---
+
+ How to Compile and Run
+
+ Using GCC
+
+1. Save the file as array.c
+2. Open terminal or command prompt
+3. Compile the program:
+
+
+gcc array.c -o array
+
+
+4. Run the executable:
+
+
+./array
+
+
+(On Windows, use array.exe)
+
+---
+
+ Sample Output
+
+
+Array elements are:
+10 20 30 40 50
+
+
+---
+
+ Concepts Covered
+
+* Arrays in C
+* Looping with for
+* Printing output using printf
+* Basic program structure in C
+
+---
+   
