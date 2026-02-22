@@ -20,7 +20,9 @@ This example is useful for beginners learning about arrays and loops in C.
 #include <stdio.h>
 
 int main() {
+    
     int arr[5] = {10, 20, 30, 40, 50};
+   
     int i;
 
     printf("Array elements are:\n");
